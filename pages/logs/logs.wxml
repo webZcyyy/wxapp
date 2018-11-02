@@ -1,0 +1,19 @@
+<!--logs.wxml-->
+<view class="aa" hover-class="none" hover-stop-propagation="false">
+    <ul>
+        <!-- li*7{$} -->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+    <view>国籍：{{country}}</view>
+    <view wx:if="{{gender}}">性别：男</view>
+    <view wx:else>性别：女</view>
+    <view>城市：{{city}}</view>    
+    <image src="{{userInfo.avatarUrl}}" mode="cover" lazy-load="false"></image>
+    <button bindtap="login">登录</button>
+</view>

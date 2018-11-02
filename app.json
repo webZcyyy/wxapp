@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hot/hot",
+    "pages/profile/profile",
+    "pages/search/search",
+    "pages/attention/attention"
+  ],
+  "tabBar": {
+    "color": "#ccc",  
+    "selectedColor": "red",  
+    "borderStyle": "white",  
+    "backgroundColor": "#f9f9f9", 
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"热门"
+      },
+      
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "评测"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/attention/attention",
+        "text": "关注"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle":"light", 
+    "navigationBarBackgroundColor": "#58bc58",
+    "navigationBarTitleText": "手机评价",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#58bc58"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

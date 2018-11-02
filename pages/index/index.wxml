@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="offer">
+  <view class="newOffer">
+    <text class="newInformation">最新超值报价</text>
+    <text class="newTime">更新时间：{{curTime}}</text>
+    <ul>
+      <li>
+        <text>vivo X20 Plus</text>
+        <text>天猫</text>
+        <text>原价</text>
+        <text>现价</text>
+        <text>告诉朋友</text>
+        
+      </li>
+      <li>
+
+      </li>
+      <li>
+
+      </li>
+    </ul>
+  </view>
+</view>
